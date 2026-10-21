@@ -9,7 +9,7 @@ async function comprobarCriatura(id: string) {
 export async function listar(criaturaId?: string) {
   if (criaturaId) await comprobarCriatura(criaturaId);
   return Avistamiento.find(criaturaId ? { criatura: criaturaId } : {})
-    .sort({ fecha: -1, _id: -1 }).lean();
+    .populate('criatura').sort({ fecha: -1, _id: -1 }).lean();
 }
 export async function obtener(id: string) {
   const doc = await Avistamiento.findById(idValido(id)).populate('criatura');
