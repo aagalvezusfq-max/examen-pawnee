@@ -1,0 +1,4 @@
+REQUEST POST http://127.0.0.1:3000/api/avistamientos
+BODY {"criatura":"65a000000000000000000101","testigo":"Andy Dwyer","ubicacion":"Parque Ramsett","descripcion":"Avistamiento de prueba A-01","fecha":"2026-10-21"}
+STATUS 201
+RESPONSE {"avistamiento":{"criatura":"65a000000000000000000101","testigo":"Andy Dwyer","ubicacion":"Parque Ramsett","fecha":"2026-10-21T00:00:00.000Z","descripcion":"Avistamiento de prueba A-01","_id":"6ad8d691bf967ee74994a733","createdAt":"2026-10-21T15:13:21.399Z","updatedAt":"2026-10-21T15:13:21.399Z","__v":0},"requestId":"7b824a38-638f-4982-88f0-6fd7a160946f"}

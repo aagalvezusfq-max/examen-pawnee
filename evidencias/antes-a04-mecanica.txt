@@ -1,0 +1,4 @@
+REQUEST GET http://127.0.0.1:3000/api/criaturas?tipo=mecanica
+BODY 
+STATUS 200
+RESPONSE {"criaturas":[],"total":0,"requestId":"4b0937e4-ddd6-478f-b0b4-1d9f562427ed"}

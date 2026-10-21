@@ -1,0 +1,4 @@
+REQUEST PUT http://127.0.0.1:3000/api/criaturas/65a000000000000000000101
+BODY {"nivelPeligro":999}
+STATUS 400
+RESPONSE {"error":"nivelPeligro debe ser un número entre 1 y 10","requestId":"6766f874-1cb0-43ff-893d-9cb115aca86f"}

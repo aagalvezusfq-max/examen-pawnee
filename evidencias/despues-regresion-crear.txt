@@ -1,0 +1,4 @@
+REQUEST POST http://127.0.0.1:3000/api/criaturas
+BODY {"nombre":"Prueba regresion","tipo":"mecanica","nivelPeligro":3}
+STATUS 201
+RESPONSE {"criatura":{"nombre":"Prueba regresion","tipo":"mecanica","habilidades":[],"nivelPeligro":3,"estado":"activa","_id":"6ad8d693bf967ee74994a73f","createdAt":"2026-10-21T15:13:23.694Z","updatedAt":"2026-10-21T15:13:23.694Z","__v":0},"requestId":"49df9310-8011-4ef7-bf15-dbaa2f21c367"}

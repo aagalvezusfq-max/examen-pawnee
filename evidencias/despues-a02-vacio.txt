@@ -1,0 +1,4 @@
+REQUEST GET http://127.0.0.1:3000/api/avistamientos?criaturaId=6ad8d693bf967ee74994a73f
+BODY 
+STATUS 200
+RESPONSE {"avistamientos":[],"total":0,"requestId":"40bb4afa-47a6-4f2c-a91c-e345eff40c62"}

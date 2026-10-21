@@ -1,0 +1,4 @@
+REQUEST GET http://127.0.0.1:3000/api/criaturas?tipo=mitica
+BODY 
+STATUS 200
+RESPONSE {"criaturas":[{"_id":"65a000000000000000000102","nombre":"El Dragón del Estacionamiento","tipo":"mitica","habilidades":["escupe fuego"],"nivelPeligro":8,"estado":"activa","createdAt":"2026-10-20T23:40:31.982Z","updatedAt":"2026-10-20T23:40:31.982Z","__v":0}],"total":1,"requestId":"7c319e54-52f1-4c55-b12b-1dd76e023ac8"}

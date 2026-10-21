@@ -1,0 +1,4 @@
+REQUEST GET http://127.0.0.1:3000/api/avistamientos/65a000000000000000000201
+BODY 
+STATUS 200
+RESPONSE {"avistamiento":{"_id":"65a000000000000000000201","criatura":{"_id":"65a000000000000000000101","nombre":"La Ardilla del Martes","tipo":"elemental","habilidades":["aparece los martes"],"nivelPeligro":2,"estado":"activa","createdAt":"2026-10-20T23:40:31.982Z","updatedAt":"2026-10-20T23:40:31.982Z","__v":0},"testigo":"Leslie Yepp","ubicacion":"Parque Ramsett","fecha":"2026-10-01T12:00:00.000Z","descripcion":"Dato ficticio de examen","createdAt":"2026-10-20T23:40:32.954Z","updatedAt":"2026-10-20T23:40:32.954Z","__v":0},"requestId":"740e4ff3-9440-456d-a756-017bb81fedf9"}

@@ -1,0 +1,4 @@
+REQUEST GET http://127.0.0.1:3000/api/avistamientos/6ad8d691bf967ee74994a733
+BODY 
+STATUS 200
+RESPONSE {"avistamiento":{"_id":"6ad8d691bf967ee74994a733","criatura":{"_id":"65a000000000000000000101","nombre":"La Ardilla del Martes","tipo":"elemental","habilidades":["aparece los martes"],"nivelPeligro":2,"estado":"activa","createdAt":"2026-10-20T23:40:31.982Z","updatedAt":"2026-10-21T15:12:49.743Z","__v":0},"testigo":"Andy Dwyer","ubicacion":"Parque Ramsett","fecha":"2026-10-21T00:00:00.000Z","descripcion":"Avistamiento de prueba A-01","createdAt":"2026-10-21T15:13:21.399Z","updatedAt":"2026-10-21T15:13:21.399Z","__v":0},"requestId":"2e650f1e-77f8-4860-bc29-a16ad93d2311"}

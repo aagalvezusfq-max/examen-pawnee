@@ -1,0 +1,4 @@
+REQUEST GET http://127.0.0.1:3000/api/criaturas/65afffffffffffffffffffff
+BODY 
+STATUS 404
+RESPONSE {"error":"Criatura no encontrada","requestId":"e0d66e96-3b1b-48b0-a9e2-0f4142111ae9"}

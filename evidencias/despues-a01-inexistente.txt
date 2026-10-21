@@ -1,0 +1,4 @@
+REQUEST POST http://127.0.0.1:3000/api/avistamientos
+BODY {"criatura":"65afffffffffffffffffffff","testigo":"Prueba","ubicacion":"Prueba","fecha":"2026-10-20"}
+STATUS 404
+RESPONSE {"error":"Criatura referenciada no encontrada","requestId":"f8e66fd9-3061-4cb3-b7eb-fcf253f3689d"}

@@ -1,0 +1,4 @@
+REQUEST PUT http://127.0.0.1:3000/api/criaturas/65a000000000000000000101
+BODY {"nivelPeligro":999}
+STATUS 200
+RESPONSE {"criatura":{"_id":"65a000000000000000000101","nombre":"La Ardilla del Martes","tipo":"elemental","habilidades":["aparece los martes"],"nivelPeligro":999,"estado":"activa","createdAt":"2026-10-20T23:40:31.982Z","updatedAt":"2026-10-21T15:11:13.152Z","__v":0},"requestId":"c4fdd553-7e3b-4c51-890a-11b56bf6edec"}

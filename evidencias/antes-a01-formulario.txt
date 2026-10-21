@@ -1,0 +1,4 @@
+REQUEST POST http://127.0.0.1:3000/api/avistamientos
+BODY {"testigo":"Andy Dwyer","ubicacion":"Parque Ramsett","descripcion":"prueba antes","fecha":"2026-10-21","criaturaId":"65a000000000000000000101"}
+STATUS 400
+RESPONSE {"error":"Campos no permitidos en el cuerpo","requestId":"cc11a7ec-8097-407d-8836-032b6b8f11d4"}

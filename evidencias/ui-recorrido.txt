@@ -1,0 +1,25 @@
+Recorrido en http://127.0.0.1:5173 con el backend en 127.0.0.1:3000. No se pulsó Actualizar lista salvo para reintentar después de un error provocado.
+
+A-04 Criaturas
+- Todos: El Brillo del Río Wamapo, El Dragón del Estacionamiento, La Ardilla del Martes.
+- Al elegir mitica, sin pulsar Actualizar lista: solo El Dragón del Estacionamiento · mitica · peligro 8.
+- Al elegir mecanica: "No hay resultados para esta consulta."
+- Al volver a Todos: las tres criaturas semilla.
+
+A-02 Avistamientos
+- April Ludgate · El Brillo del Río Wamapo · Ribera
+- Tom Haverford · El Dragón del Estacionamiento · Estacionamiento
+- Ron Swandson · La Ardilla del Martes · Parque Ramsett
+- Leslie Yepp · La Ardilla del Martes · Parque Ramsett
+- Filtro de una criatura sin avistamientos: "No hay resultados para esta consulta." Esa criatura de prueba se eliminó después (204).
+
+A-01 Formulario
+- Criatura La Ardilla del Martes, testigo Andy Dwyer, ubicación Parque Ramsett, fecha 2026-10-21.
+- Guardar abrió /avistamientos/6ad8d6f8bf967ee74994a75a
+- Detalle: Criatura La Ardilla del Martes, fecha 2026-10-21.
+- Recarga del listado: Andy Dwyer · La Ardilla del Martes · Parque Ramsett permanece.
+
+Estados
+- Cargando... al entrar a Avistamientos y al formulario.
+- Con el backend detenido y el filtro en Todas: "Error: HTTP 500".
+- Al reiniciar el backend y pulsar Actualizar lista, volvió el listado con nombres.
