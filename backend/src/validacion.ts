@@ -14,7 +14,7 @@ export function cuerpo(body: unknown, campos: readonly string[], obligatorios: r
     if (k === 'habilidades') {
       if (!Array.isArray(v) || !v.every(x => typeof x === 'string')) throw new ApiError(400, 'habilidades debe ser string[]');
     } else if (k === 'nivelPeligro') {
-      if (typeof v !== 'number' || !Number.isFinite(v)) throw new ApiError(400, 'nivelPeligro debe ser un número');
+      if (typeof v !== 'number' || !Number.isFinite(v) || v < 1 || v > 10) throw new ApiError(400, 'nivelPeligro debe ser un número entre 1 y 10');
     } else if (typeof v !== 'string') throw new ApiError(400, `${k} debe ser texto`);
   }
   return datos;
