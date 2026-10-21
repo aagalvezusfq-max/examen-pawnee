@@ -14,9 +14,8 @@ export function FormularioAvistamiento(){
  },[id,preseleccion]);
  async function enviar(e:FormEvent<HTMLFormElement>){
   e.preventDefault();setError(null);setGuardando(true);
-  // Cuerpo de datos que se entrega al servicio HTTP.
-  const datos:Record<string,unknown>={testigo:form.testigo.trim(),ubicacion:form.ubicacion.trim(),descripcion:form.descripcion,fecha:form.fecha};
-  datos[id ? 'criatura' : 'criaturaId'] = form.criatura;
+  // El contrato exige el campo criatura tanto al crear como al editar.
+  const datos:AvistamientoInput={criatura:form.criatura,testigo:form.testigo.trim(),ubicacion:form.ubicacion.trim(),descripcion:form.descripcion,fecha:form.fecha};
   try{const a=await guardarAvistamiento(id,datos);navigate(`/avistamientos/${a._id}`);}catch(e){setError(e instanceof Error?e.message:'No se pudo guardar');}finally{setGuardando(false);}
  }
  if(cargando)return <p>Cargando formulario...</p>;
